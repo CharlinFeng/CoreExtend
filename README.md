@@ -6,7 +6,7 @@
 <br />
 ####框架特性：<br />
 >1.私有框架。
-
+>2.~/Library/Developer/Xcode/UserData/
 <br /><br />
 
 
