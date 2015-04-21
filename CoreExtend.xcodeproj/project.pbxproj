@@ -102,7 +102,6 @@
 		EE5839781AB9902C00516AC1 /* CoreExtendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreExtendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE58397D1AB9902C00516AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE58397E1AB9902C00516AC1 /* CoreExtendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreExtendTests.m; sourceTree = "<group>"; };
-		EE5839891AB9903F00516AC1 /* CodeBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeBlock.h; sourceTree = "<group>"; };
 		EE58398A1AB9903F00516AC1 /* iOS8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS8.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -225,7 +224,6 @@
 			isa = PBXGroup;
 			children = (
 				89BBE5541AD250BA00E57201 /* CodeSnippets */,
-				EE5839891AB9903F00516AC1 /* CodeBlock.h */,
 				EE58398A1AB9903F00516AC1 /* iOS8.h */,
 				89BBE5531AD24FF300E57201 /* Experience.h */,
 				89999A181AD2C2F500E65267 /* CoreConst.h */,
