@@ -57,7 +57,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		89999A181AD2C2F500E65267 /* CoreConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreConst.h; sourceTree = "<group>"; };
 		89BBE5531AD24FF300E57201 /* Experience.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Experience.h; sourceTree = "<group>"; };
 		89BBE5551AD250BA00E57201 /* 05D1EB67-DA6A-4AE2-AE04-A683B5065ECA.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "05D1EB67-DA6A-4AE2-AE04-A683B5065ECA.codesnippet"; sourceTree = "<group>"; };
 		89BBE5561AD250BA00E57201 /* 0D6975F9-C05D-4FA2-A566-1523C39F6B16.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "0D6975F9-C05D-4FA2-A566-1523C39F6B16.codesnippet"; sourceTree = "<group>"; };
@@ -226,7 +225,6 @@
 				89BBE5541AD250BA00E57201 /* CodeSnippets */,
 				EE58398A1AB9903F00516AC1 /* iOS8.h */,
 				89BBE5531AD24FF300E57201 /* Experience.h */,
-				89999A181AD2C2F500E65267 /* CoreConst.h */,
 			);
 			path = CoreExtend;
 			sourceTree = "<group>";
