@@ -57,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8964CA761B43CFCB008D6FB5 /* App.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = App.pch; sourceTree = "<group>"; };
 		89BBE5531AD24FF300E57201 /* Experience.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Experience.h; sourceTree = "<group>"; };
 		89BBE5551AD250BA00E57201 /* 05D1EB67-DA6A-4AE2-AE04-A683B5065ECA.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "05D1EB67-DA6A-4AE2-AE04-A683B5065ECA.codesnippet"; sourceTree = "<group>"; };
 		89BBE5561AD250BA00E57201 /* 0D6975F9-C05D-4FA2-A566-1523C39F6B16.codesnippet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "0D6975F9-C05D-4FA2-A566-1523C39F6B16.codesnippet"; sourceTree = "<group>"; };
@@ -225,6 +226,7 @@
 				89BBE5541AD250BA00E57201 /* CodeSnippets */,
 				EE58398A1AB9903F00516AC1 /* iOS8.h */,
 				89BBE5531AD24FF300E57201 /* Experience.h */,
+				8964CA761B43CFCB008D6FB5 /* App.pch */,
 			);
 			path = CoreExtend;
 			sourceTree = "<group>";
@@ -483,7 +485,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/CoreExtend/App.pch";
 				INFOPLIST_FILE = CoreExtend/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -493,7 +498,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/CoreExtend/App.pch";
 				INFOPLIST_FILE = CoreExtend/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

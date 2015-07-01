@@ -12,7 +12,7 @@
  
  2.导入pch文件
  (1)Building Setting中搜索pref
- (2)将Prefix Header的值设为 $(SRCROOT)/$(PRODUCT_NAME)/$(PRODUCT_NAME).pch
+ (2)将Prefix Header的值设为 $(SRCROOT)/$(PRODUCT_NAME)/CoreExtend/App.pch
  
  
  3.sizeClass经验总结：
